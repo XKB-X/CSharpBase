@@ -10,6 +10,9 @@ namespace Chapter10_Collection
     {
         static void Main(string[] args)
         {
+            //创建管道，运行管道
+            CreatePipe.PipeSample.StartPipeline();
+            Console.ReadKey();
         }
     }
 }

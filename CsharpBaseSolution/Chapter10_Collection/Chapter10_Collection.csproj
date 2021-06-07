@@ -42,6 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collection\Queue\Document.cs" />
+    <Compile Include="Collection\Queue\DocumentManager.cs" />
+    <Compile Include="Collection\Queue\ProcessDocuments.cs" />
+    <Compile Include="Collection\Racer.cs" />
+    <Compile Include="Collection\RacerComparer.cs" />
+    <Compile Include="CreatePipe\ConcurrentDictionaryExtension.cs" />
+    <Compile Include="CreatePipe\ConsoleHelper.cs" />
+    <Compile Include="CreatePipe\Info.cs" />
+    <Compile Include="CreatePipe\PipeLineStages.cs" />
+    <Compile Include="CreatePipe\PipeSample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
